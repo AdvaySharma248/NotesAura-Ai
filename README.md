@@ -139,4 +139,74 @@ This scaffold includes a comprehensive set of modern web development tools:
 ---
 
 Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
-# NotesAura-Ai
+# NotesAura AI
+
+A Next.js application with AI-powered features, authentication, and real-time capabilities.
+
+## Tech Stack
+
+- **Framework:** Next.js 15 with App Router
+- **Language:** TypeScript 5
+- **Styling:** Tailwind CSS 4
+- **UI Components:** shadcn/ui (Radix UI)
+- **Database:** Prisma ORM with SQLite
+- **Authentication:** NextAuth.js
+- **AI:** Google Gemini AI
+- **Real-time:** Socket.IO
+
+## Features
+
+- User authentication (Email/Password & Google OAuth)
+- AI-powered chat and document processing
+- File upload support (PDF, DOCX, Audio)
+- Real-time communication
+- Session management
+- User settings and data export
+
+## Getting Started
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Set up environment variables:**
+   - Copy `.env.example` to `.env`
+   - Add your API keys and configuration
+
+3. **Set up the database:**
+   ```bash
+   npm run db:migrate
+   npm run db:generate
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run db:push` - Push Prisma schema to database
+- `npm run db:generate` - Generate Prisma client
+- `npm run db:migrate` - Run database migrations
+- `npm run db:reset` - Reset database
+
+## Team Members
+
+- Aditi
+- Advay
+- Drishya
+- Ankita
+- Mayank
+
+## License
+
+Private
